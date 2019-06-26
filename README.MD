@@ -30,6 +30,16 @@
   - **开机自动运行**：
     把这个文件放入windows的启动文件夹里，让它开机自动运行。方法是开始-运行，输入`shell:startup`，进入启动文件夹。给wv2ray.exe创建一个快捷方式，然后把这个快捷方式放进启动文件夹里。
 
+# **V2Ray** for MacOS
+- 带GUI的V2rayX (在MacOS Sierra v10.12.6 和V2rayX v1.4.0上测试可用)
+  V2ray有shell版本，但是带GUI包装的V2rayX更简单亲民，不需要在浏览器上装代理插件，适合帮帮小姑娘。
+  傻瓜式参考教程 https://www.latoooo.com/ke_xue_shang_wang/363.htm
+  - 如果你已经有了一份配置文件，请务必注意要下这份配置文件对应的版本。例如如果你的config.json文件是涛子给的，那么很可能你要下1.4.0版本：https://github.com/Cenmrev/V2RayX/releases/tag/v1.4.0
+  - 下载了zip文件之后，解压缩出来一个应用程序，可以把它添加进你的应用程序列表里，运行
+  - 按照上面的傻瓜式教程走配置就可以了，你可以手动输入自己的配置，也可以选择import已有的config.json文件。
+  - 配置好之后别忘了在V2ray菜单里点 start/load（start还是load取决于你用哪个版本）
+  - enjoy
+
 # **Switchyomega** for Chrome/Firefox
   Switchyomega是一个管理代理的浏览器插件，在Chrome和Firefox上都有。建议使用Firefox，它比Chrome的隐私保护更好。这里暂时还是以Chrome为例（Firefox上是一样的用法），这是[Switchyomega的下载地址](https://github.com/FelisCatus/SwitchyOmega/releases)，下载那个.crx文件。
 
